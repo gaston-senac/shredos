@@ -1,3 +1,19 @@
+Steps for compiling ShredOS:
+
+1. Download buildroot: https://buildroot.org/downloads/buildroot-2019.11.tar.gz
+2. Install the following packages if you are in Debian:
+  apt install build-essential rsync bc unzip libncurses5 libncurses5-dev git
+
+
+You can build the image by doing:
+```
+$ git clone git@github.com:nadenislamarre/shredos.git
+$ cd shredos
+$ make shredos_defconfig
+$ make
+$ ls output/images/shredos*.img
+```
+
 Bare PC sample config
 =====================
 

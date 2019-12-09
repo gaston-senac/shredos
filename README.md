@@ -22,17 +22,8 @@ Nwipe also includes the following pseudo random number generators:
 * twister
 * isaac
 
-## Compiling ShredOS and burning to USB stick
+## Burning to USB stick
 
 The ShredOS system is built using buildroot.
 The final system size is about 12MB but due to minimim fat32 partition size, the ending image is about
 37MB and can be burnt onto a USB memory stick with a tool such as dd or Etcher.
-
-You can build the image by doing:
-```
-$ git clone git@github.com:nadenislamarre/shredos.git
-$ cd shredos
-$ make shredos_defconfig
-$ make
-$ ls output/images/shredos*.img
-```
