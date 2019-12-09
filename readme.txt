@@ -4,6 +4,9 @@ Steps for compiling ShredOS:
 2. Install the following packages if you are in Debian:
   apt install build-essential rsync bc unzip libncurses5 libncurses5-dev git
 
+3. make nconfig
+4. make
+
 
 You can build the image by doing:
 ```
