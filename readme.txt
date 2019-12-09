@@ -7,6 +7,12 @@ Steps for compiling ShredOS:
 3. make nconfig
 4. make
 
+make[1]: Entering directory '/home/gaston/buildroot/buildroot/output/build/linux-5.4.2'
+error: Cannot generate ORC metadata for CONFIG_UNWINDER_ORC=y, please install libelf-dev, libelf-devel or elfutils-libelf-devel
+
+#https://github.com/mirage/mirage/issues/919
+apt install libssl-dev
+
 
 You can build the image by doing:
 ```
