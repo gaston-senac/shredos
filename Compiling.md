@@ -1,17 +1,19 @@
-Steps for compiling ShredOS:
+# Steps for compiling ShredOS:
 
 1. Download buildroot: https://buildroot.org/downloads/buildroot-2019.11.tar.gz
 2. Install the following packages if you are in Debian:
-  apt install build-essential rsync bc unzip libncurses5 libncurses5-dev git
-
+  apt install build-essential rsync bc unzip libncurses5 libncurses5-dev git libssl-dev
 3. make nconfig
 4. make
+5. If you are having trouble downloading from some of the ftp sites, you could change the URL under Build options, Mirrors and Download locations 
 
-make[1]: Entering directory '/home/gaston/buildroot/buildroot/output/build/linux-5.4.2'
-error: Cannot generate ORC metadata for CONFIG_UNWINDER_ORC=y, please install libelf-dev, libelf-devel or elfutils-libelf-devel
+# Options in BuildRoot:
+* Target: x86_64, elf, core2
+* Toolchain: Enable WCHAR support
+* 
 
-#https://github.com/mirage/mirage/issues/919
-apt install libssl-dev
+
+http://editthis.info/sfvlug/Make_Your_Own_Bootable_Thumbdrive_with_Buildroot
 
 
 You can build the image by doing:
