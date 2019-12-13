@@ -10,7 +10,7 @@
 # Options in BuildRoot:
 * Target: x86_64, elf, core2
 * Toolchain: Enable WCHAR support
-* 
+* Filesystem images: iso image, build hybrid image, squashfs
 
 
 http://editthis.info/sfvlug/Make_Your_Own_Bootable_Thumbdrive_with_Buildroot
