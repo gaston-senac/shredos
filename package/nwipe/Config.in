@@ -5,4 +5,4 @@ config BR2_PACKAGE_NWIPE
         help
           NWipe
 
-comment "nwipe"
+comment "nwipe https://github.com/martijnvanbrummelen/nwipe"

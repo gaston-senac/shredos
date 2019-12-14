@@ -1,0 +1,16 @@
+#!/bin/bash
+
+stripcom() {
+        local _file="$1"
+        local _line
+
+        {
+                while read _line ; do
+                        _line=${_line%%#*}              # strip comments
+                        test -z "$_line" && continue
+                        echo $_line
+                done
+        } < $_file
+}
+
+stripcom $1

@@ -1,0 +1,11 @@
+--- package/Config.in   2019-12-09 10:55:18.548385003 +0000
++++ package/Config.in.nwipe     2019-12-14 10:27:09.006860908 +0000
+@@ -2327,4 +2327,8 @@
+        source "package/vim/Config.in"
+ endmenu
+
++menu "ShredOS"
++       source "package/nwipe/Config.in"
++endmenu
++
+ endmenu

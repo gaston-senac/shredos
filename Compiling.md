@@ -5,7 +5,10 @@
   apt install build-essential rsync bc unzip libncurses5 libncurses5-dev git libssl-dev
 3. make nconfig
 4. make
-5. If you are having trouble downloading from some of the ftp sites, you could change the URL under Build options, Mirrors and Download locations 
+5. If you are having trouble downloading from some of the ftp sites, you could change the URL under Build options, Mirrors and Download locations
+6. Clone ShredOS
+7. Run install.sh
+8. 
 
 # Options in BuildRoot:
 * Target: x86_64, elf, core2

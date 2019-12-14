@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-NWIPE_VERSION = v0.24
+NWIPE_VERSION = v0.26
 NWIPE_SITE = $(call github,martijnvanbrummelen,nwipe,$(NWIPE_VERSION))
 NWIPE_DEPENDENCIES = ncurses parted
 
